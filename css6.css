@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f8f2;
+    color: #333;
+  background-image: url(bg.jpg);
+  background-size: 100%;
+}
+
+header {
+    background-color: green;
+    color: white;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+      box-shadow: 4px 4px 10px rgba(10, 10, 10, 100);
+}
+
+.header-logo {
+    width: 70px;
+    height: auto;
+    margin-right: 30px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+nav {
+    background-color: #6f8f6d;
+    box-shadow: 4px 4px 10px rgba(10, 10, 10, 100);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 1rem;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+#about p {
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+#products .product {
+    background-color: #e2f1e0;
+    border: 1px solid #c2d4be;
+    margin: 1rem auto;
+    max-width: 400px;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+#products .product h3 {
+    color: #6f8f6d;
+}
+
+footer {
+    background-color: #87a87e;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
